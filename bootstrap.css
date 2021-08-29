@@ -67,12 +67,12 @@ background-position: center;
 
 @media (max-width: 1000px ) {
     header{
-        height:50vh;
+        height:40vh;
     }
     .back{
         background-color: rgba(8, 76, 78, 0.589);
         height: 100%;
-       object-fit: cover;
+      
     background-repeat: no-repeat;
     background-size: cover;
 background-position: left;}
