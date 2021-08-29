@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                     
+}
+header{
+    
+    height: 100vh;
+}
+
+.back{
+    background-color: rgba(8, 76, 78, 0.589);
+    height: 100%;
+   
+    background-image: url(background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+   
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ .menu{
+    width:80%;
+   /* border: 3px solid black;  */
+    margin: auto;
+}
+.sub-menu{
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid blue; */
+}
+ .sub-menu li{
+/* border: 3px solid red; */
+  margin: auto;
+  padding: 0 15px;
+} 
+.sub-menu li a{
+    color: rgb(0, 0, 0);
+   
+    
+}
+
+.sub-menu .active,li:hover{
+    /* background-color: rgba(105, 11, 11, 0.527); */
+    color: black;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transform: translateY(5px);
+}
+.sub-menu li a:hover{
+    color: black;
+   
+}
+
+
+.work{
+    margin: auto;
+   
+}
+
+.work img{
+    width:40%;
+    
+
+}
+
+
+/* ##############---------------------#################-----------------##########################3 */
+/* ##############---------------------#################-----------------##########################3 */
+/* ##############---------------------#################-----------------##########################3 */
+/* ##############---------------------#################-----------------##########################3 */
+/* ##############---------------------#################-----------------##########################3 */
+/* ##############---------------------#################-----------------##########################3 */
+
+@media (max-width: 1000px ) {
+    header{
+        height:40vh;
+    }
+    .back{
+        background-color: rgba(8, 76, 78, 0.589);
+        height: 100%;
+       
+    background-repeat: no-repeat;
+    background-size:cover;
+background-position:left;}
+    
+    .menu{
+        margin: 0%;
+        width: auto;
+    }
+    .sub-menu{
+        margin: 0;
+        width: auto;
+      
+    }
+    .sub-menu li{
+        margin: 0;
+        width: auto;
+       
+        
+    }
+    .sub-menu li a{
+        color: white;
+        border-bottom: 3px solid white;
+        width: 8rem;
+    }
+    .sub-menu .active,li:hover{
+        background: none;
+        border: none;
+    }
+
+   
+}
+
+
+
+
